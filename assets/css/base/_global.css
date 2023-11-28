@@ -1,18 +1,20 @@
 html{
     font-size: 62.5%;
+
 }
 body{
     font-family: "roboto",sans-serif;
-    color: white;
+    color:white;
 }
 
 .background-fixed{
-    background-image: url('../../imgs/background.png'); 
+    background-image: url('../../imgs/background.png');
+    background-repeat: no-repeat; 
     background-size: cover; /* para que a imagem do background ocupe toda a area de visualização */
     position:fixed; /* para que o background seja fixo em todo o corpo do elemento*/ 
     height:100vh;
     width:100%;
-    z-index: 1;
+    z-index: -1;
 
 }
 

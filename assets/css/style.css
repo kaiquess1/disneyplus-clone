@@ -1,3 +1,4 @@
 @import url(base/_reset.css); /*Importando as configurações do arquivos _RESET.CSS*/
 @import url(base/_fontes.css);
 @import url(base/_global.css);
+@import url(componentes/__logo.css);
