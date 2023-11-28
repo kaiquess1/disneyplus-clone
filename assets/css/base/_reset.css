@@ -1,0 +1,17 @@
+/* RESET DE CONFIGURAÇÕES PADRÃO*/
+
+*,*::after,
+*::before{
+    margin: 0; /* Espaçamentos externos */
+    padding: 0;/* Espaçamentos externos*/
+    border: none; /* Bordas*/
+    box-sizing: border-box; /* P/ que as bordas dos elementos fiquem de acordo com as definidas nos elementos */
+} 
+
+a{
+    text-decoration:none ; /* tirar o sublinhado da tag*/ 
+}
+
+ul{
+    list-style: none; /* tirar os potinhos das tag*/ 
+}
