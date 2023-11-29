@@ -56,11 +56,32 @@
 .user-menu__link:hover{
     color: #ffff;
 }
+
 .user-menu__profiles,
 .user-menu__options{
     animation: showFade .3s;
 }
-.user-menu:hover .show-hover{
+
+.user-menu:hover .show-hover,
+.user-menu:hover .user-profile__title{
     display: block;
 }
 
+.user-menu.active .show-hover,
+.user-menu.active .user-profile__title{
+    display: block;
+}
+
+@media screen and (max-width:1024px) {
+    .user-menu .user-profile__title{
+        display:none;
+    }
+    .user-menu .user-profile__avatar{
+        height: 3.6rem;
+        width: 3.6rem;
+    }
+    .user-menu-current-profiles{
+        padding-top: 0.9rem;
+    }
+    
+}

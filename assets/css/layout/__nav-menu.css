@@ -64,11 +64,14 @@
     background: #141414;
     border: 0.1rem solid #393939;
     border-radius: 0.5rem;
-    margin-left: 7rem;
-    margin-right: 2rem;
-    position: relative;
-    top:-2rem;
+    margin-left: 9rem;
+    margin-top: -1rem;
+    position: absolute;
     display: none;
+}
+
+.nav-submenu.active{
+    display: block;
 }
 @media screen and (max-width:1024px) {
     .nav-menu__text{
