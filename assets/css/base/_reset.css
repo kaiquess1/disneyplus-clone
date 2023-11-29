@@ -12,6 +12,6 @@ a{
     text-decoration:none ; /* tirar o sublinhado da tag*/ 
 }
 
-ul{
+ul,li{
     list-style: none; /* tirar os potinhos das tag*/ /**/
 }
